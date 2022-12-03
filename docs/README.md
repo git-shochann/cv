@@ -22,11 +22,11 @@
 
 ### 言語
 
-Go | Ruby | JavaScript | TypeScript
+Go | Ruby | TypeScript
 
 ### フレームワーク・ライブラリ
 
-Ruby on Rails | Node.js | Express | JQuery
+Ruby on Rails | Express |
 
 ### DB
 
@@ -57,11 +57,11 @@ Docker | gRPC | OpenAPI
 また設計としてスキーマファーストでフロントエンド、バックエンドを並行して進め、サービス立ち上げから保守運用まで幅広い技術を経験
 
 - **プロジェクト規模：**
-  - 3 人チームでの開発
+  - 4 人チームでの開発
 - **プロジェクト詳細：**
 
   - Rails, Node.js での API 開発
-  - OpenAPI を使用した RestAPI 設計
+  - OpenAPI を使用した RESTAPI 設計
   - Docker、GitHub Actions、を使用した CI/CD 構築、運用
   - nginx を用いた Web サーバーの実装
   - AWS EC2 にてデプロイ、RDS を使用した DB の構築、S3 を利用したファイルアップロード機能
@@ -69,7 +69,7 @@ Docker | gRPC | OpenAPI
   - メールアドレス認証機能の構築
   - 予約機能の構築
   - 各種 通知が必要な ものの Slack 通知の実装
-  - 管理者用の声優合格、不合格等の API を用意
+  - 管理者用の声優合格、不合格等の API を実装
 
 ---
 
@@ -77,22 +77,22 @@ Docker | gRPC | OpenAPI
 
 ### 個人開発活動
 
-- **ソフトウェア受託開発 1**
+- **Gmail 自動認証 (受託開発)**
 
   - 担当：設計・実装
-  - 使用技術：Go
+  - 使用技術：Go, agouti, GmailAPI
   - GmailAPI + ブラウザ自動操作を通して、メールの 2 段階認証の自動化を CLI にて実装
 
-- **ソフトウェア受託開発 2**
+- **物流倉庫通知 BOT(受託開発)**
 
   - 担当：設計・実装
-  - 使用技術：Go
+  - 使用技術：Go, discordgo, 物流倉庫 API
   - 海外向けに展開している輸出ビジネスにおいて、契約している物流倉庫の在庫状況を Discord に通知する DiscordBot の作成
 
-- **ソフトウェア受託開発 3**
+- **Proxy サーバー自動作成 CLI(受託開発)**
 
   - 担当：設計・実装
-  - 使用技術：Go
+  - 使用技術：Go, cobra, NHN Cloud API
   - CLI ベースで NHNCloud のインスタンスの構築、全件取得、グローバル IP のアタッチ、デタッチ機能さらにグローバル IP がアタッチされているサーバーに関しては、SSH 接続の上、Squid を用いて Proxy サーバーの自動生成行うプログラムの作成
 
 ### 技術記事投稿
