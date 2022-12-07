@@ -100,7 +100,7 @@ Docker | gRPC | OpenAPI
 
   - 担当：設計・実装
   - 使用技術等：Go, GORM, JWT, Docker, Layered Architecture + Domain Driven Design, GitHub Actions
-  - Docker にて DB コンテナを作成し、上記技術を用いた RESTAPI の作成([go-restapi-ddd](https://github.com/git-shochann/go-restapi-ddd))
+  - Docker にて DB コンテナを作成し、上記技術を用いた RESTAPI の作成（[go-restapi-ddd](https://github.com/git-shochann/go-restapi-ddd))
 
 -
 
