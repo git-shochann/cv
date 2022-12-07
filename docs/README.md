@@ -34,7 +34,7 @@ MySQL | PostgreSQL
 
 ### インフラ関連
 
-Amazon EC2 | AWS Lambda | AWS S3 | Amazon Aurora | Amazon RDS | Amazon VPC | Amazon Route 53
+Amazon EC2 | AWS Lambda | AWS S3 | Amazon Aurora | Amazon RDS | Amazon VPC
 
 ### アーキテクチャー設計
 
