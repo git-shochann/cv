@@ -63,7 +63,7 @@ Docker | gRPC | OpenAPI
   - Rails, Node.js での API 開発
   - OpenAPI を使用した RESTAPI 設計
   - Docker、GitHub Actions、を使用した CI/CD 構築、運用
-  - Nginx を用いた Web サーバーの実装
+  - nginx を用いた Web サーバーの実装
   - Unicorn を用いたアプリケーションサーバーの実装
   - AWS EC2 にてデプロイ、RDS を使用した DB の構築、S3 を利用したファイルアップロード機能
   - 新規登録、ログイン機能の実装
