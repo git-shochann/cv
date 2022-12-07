@@ -26,7 +26,7 @@ Go | Ruby | TypeScript
 
 ### フレームワーク・ライブラリ
 
-Ruby on Rails | Express | Prisma | GORM | jwt | Cobra |
+Ruby on Rails | Express | Prisma | GORM | Cobra |
 
 ### DB
 
@@ -95,6 +95,14 @@ Docker | gRPC | OpenAPI
   - 担当：設計・実装
   - 使用技術：Go, cobra, NHN Cloud API
   - CLI ベースで NHNCloud のインスタンスの構築、全件取得、グローバル IP のアタッチ、デタッチ機能さらにグローバル IP がアタッチされているサーバーに関しては、SSH 接続の上、Squid を用いて Proxy サーバーの自動生成行うプログラムの作成
+
+- **RESTAPI 作成**
+
+  - 担当：設計・実装
+  - 使用技術等：Go, GORM, JWT, Docker, Layered Architecture + Domain Driven Design, GitHub Actions
+  - Docker にて DB コンテナを作成し、上記技術を用いた RESTAPI の作成([go-restapi-ddd](https://github.com/git-shochann/go-restapi-ddd))
+
+-
 
 ### 技術記事投稿
 
