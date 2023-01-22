@@ -48,6 +48,9 @@ GitHub Actions
 
 Docker | Protocol Buffers | gRPC | OpenAPI
 
+<br>
+<br>
+
 ## 職務経歴詳細
 
 ### 業務委託（2022/04〜 現在）
