@@ -20,40 +20,40 @@
 
 ## 技術
 
-### 言語
+### 言語, FW
 
-Go | Ruby | TypeScript
-
-### フレームワーク・ライブラリ
-
-Ruby on Rails | Express | Prisma | GORM | Cobra |
+Go | Echo | Ruby | Ruby on Rails | TypeScript | Express
 
 ### DB
 
 MySQL | PostgreSQL
 
-### インフラ関連
+### インフラ
 
-Amazon EC2 | AWS Lambda | AWS S3 | Amazon Aurora | Amazon RDS | Amazon VPC
-
-### アーキテクチャー設計
-
-Layered Architecture | Domain Driven Design
-
-### CI/CD 環境
-
-GitHub Actions
+AWS
 
 ### その他
 
-Docker | Protocol Buffers | gRPC | OpenAPI
+Docker | GitHub Actions | Protocol Buffers | gRPC | OpenAPI（Swagger）|
+Clean Architecture
 
 <br>
 <br>
 
 ## 職務経歴詳細
 
-### 業務委託（2022/04〜 現在）
+### 株式会社 栄光（2023/04/01〜）
+
+- **プロジェクト規模：**
+
+  - 役割: バックエンドエンジニア、DBA、インフラ
+
+- **主な業務と成果：**
+
+  - Go, MySQL, AWS
+  - API 開発、技術検証
+
+### 業務委託（2022/04〜2022/12）
 
 - **Proxy サーバー自動作成 CLI**
 
