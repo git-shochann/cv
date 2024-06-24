@@ -46,6 +46,8 @@ AWS Certified Solutions Architect – Associate
 
 - **詳細な業務内容**
 
+  教育塾向けの主に生徒、保護者、先生が使用する教室管理システムの開発
+
   - モノリス、コンテナでの開発
   - 使用技術：Go、Echo、MySQL、Gorm v2
   - アーキテクチャパターン：クリーンアーキテクチャでAPI毎に分けて開発
