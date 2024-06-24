@@ -4,7 +4,9 @@
   "description": "resume template",
   "scripts": {
     "lint": "textlint docs/README.md",
-    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
+    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js",
+    "build:html": "node convert.js"
+
   },
   "keywords": [],
   "devDependencies": {
@@ -30,5 +32,8 @@
     "textlint-rule-preset-jtf-style": "^2.3.4",
     "textlint-rule-prh": "^5.3.0",
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0"
   }
 }
