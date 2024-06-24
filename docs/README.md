@@ -47,7 +47,6 @@ AWS Certified Solutions Architect – Associate
 - **詳細な業務内容**
 
   - モノリス、コンテナでの開発
-  - バックエンドAPIチーム、DB、AWSの管理
   - 使用技術：Go、Echo、MySQL、Gorm v2
   - アーキテクチャパターン：クリーンアーキテクチャでAPI毎に分けて開発
   - API仕様のドキュメント化：Swaggerを使用
