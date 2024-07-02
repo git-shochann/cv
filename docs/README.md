@@ -24,7 +24,7 @@ AWS
 
 ### Others
 
-Docker | GitHub Actions | Swagger | Clean Architecture
+Docker | GitHub Actions
 
 ### Qualification
 
@@ -37,7 +37,7 @@ AWS Certified Solutions Architect – Associate
 - **プロジェクト規模**
 
   - 役職: Backend Engineer
-  - 分散されたチームでの開発（5人〜）
+  - 機能単位でのチームでの開発（5人〜）
 
 - **主な業務と成果**
 
@@ -82,12 +82,6 @@ AWS Certified Solutions Architect – Associate
   - 使用技術：Go, discordgo, 物流倉庫 API
   - 海外向け輸出ビジネスにおいて、契約物流倉庫の在庫状況をDiscordに通知するDiscordBotを作成。短期間で要件定義、設計、コーディングを一人で担当し納品
 
-- **Gmail 自動認証**
-
-  - 担当：要件定義、設計、実装
-  - 使用技術：Go, agouti, GmailAPI
-  - GmailAPIとブラウザ自動操作を用いたメールの2段階認証の自動化をCLIで実装。要件定義、設計、コーディングを一人で担当し納品
-
 ### 株式会社 VoiceUtopia（2021/01〜2022/04）
 
 ユーザーと声優の1:1通話サービスのWebアプリケーションをサービス立ち上げから設計、開発、運用まで行いました。初めての技術も主体的に習得し、限られた時間の中でユーザーが求める機能を優先的に開発しました。上流工程から関わり、DB設計、API設計、開発、Swaggerを用いたスキーマファーストの開発を行い、フロントエンドと並行して開発スピードを上げることができました。インフラ設計、デプロイまで担当しリリースを成功させました。
@@ -108,6 +102,15 @@ AWS Certified Solutions Architect – Associate
   - 管理者機能の実装（Slack通知、Web上での声優採用・不採用処理、メール配信）
   - AWS EC2を使用したAPIサーバー、AWS RDSを使用したDBのインフラ設計・構築
 
+### Apple Japan 合同会社(2018/09〜2021/11)
+
+大学在学中に入社し、主に修理サポートを担当、法人営業も行いました。
+基本的に業務に求められる時間や水準が高く、時間内にいかに効率良く業務を達成出来るか常に試行錯誤してました。
+また新人教育も行い、実際に業務で活かせるようにすることを担当していました。日頃からマネージャーと積極的に 1on1 をし、日々のオペレーションについて話し合うことを行い、自身のカスタマーからの評価を常に平均以上の水準を保っていました。
+ダイバーシティ&インクルージョンという多様な人材を受け入れ、その能力を発揮させるという考え方が根底にあり、
+多国籍で多種多様で、個人を尊重するという文化の中で学ぶことができ、チームで達成するということが自分にとって非常にやりがい
+
+
 ## 業務外活動
 
 ### 技術記事投稿
@@ -125,12 +128,6 @@ AWS Certified Solutions Architect – Associate
 - マイクロサービス
 - 大規模システムの開発
 - IaCでのクラウド管理
-
-学習中
-
-- 英語
-- AWS Certified Developer – Associate
-- AWS Certified Solutions Architect – Professional
 
 ## 自己PR、希望条件
 
