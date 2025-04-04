@@ -7,9 +7,9 @@
 
 ## スキル
 
-### プログラミング言語
+### プログラミング言語等
 
-- Go | Ruby | JavaScript
+- Go | Ruby | JavaScript | SQL
 
 ### フレームワーク / ランタイム
 
@@ -19,13 +19,17 @@
 
 - MySQL
 
-### クラウドサービス
+### クラウド / インフラ・監視等
 
-- AWS (ECS, EC2, RDS, CloudFront, S3, ECR, SQS, EventBridge, Batch, CDK, Lambda, VPC)
+- AWS (ECS, EC2, RDS, CloudFront, S3, ECR, SQS, EventBridge, Batch, CDK, Lambda, VPC) | Docker | Datadog
 
-### その他
+### CI/CD
 
-- SQL | Docker | GitHub Actions | Taurus | K6 | Datadog
+- GitHub Actions
+
+### 負荷テスト
+
+- Taurus | K6
 
 ### 資格
 
@@ -70,7 +74,9 @@
 - クリーンアーキテクチャを採用し、API単位で開発
 - Swaggerを用いてAPIドキュメントを整備
 - DDLベースの管理からGorm V2によるマイグレーションファイルでの管理へ移行
-- APIのログ設計の実施（Echo, Gorm, 標準ライブラリをZapに統一し、Datadogとの連携の実施）
+- Goの標準パッケージ（testing）を活用し、ユニットテストを実装。CI上で自動テストが実行されるようGitHub Actionsに組み込み、開発品質を維持
+- APIのログ設計、AWSのログ出力設計、Datadogの連携の整備（Echo, Gorm, 標準ライブラリやログファイルある部分等も含め、非機能要件を考慮しZapに統一し、AWSのログ出力周りの変更を実施、Datadogとの連携を実施）
+
 
 ##### 2. 開発環境の整備
 
@@ -86,10 +92,11 @@
 - Socket.IOサーバーのためにECSやネットワークの設定を最適化
 - 可用性・パフォーマンスを向上のために、DBのマスター・スレーブの二台構成を導入し伴うソースの変更、インフラの変更を実施
 
-##### 4. 監視・運用
+##### 4. 監視・運用・改善
 
 - Datadog（APM, DBM）を導入し、アプリケーションのパフォーマンス監視・ログ収集を実施
 - 負荷テストにおいて、Taurus, K6を用いてシステムの耐久テストを実施し、インスタンススペックの調整やコネクションプールを適切な値を決定することを実施
+- Datadogの監視結果をもとにスロークエリ・処理遅延を特定し、SQLの最適化およびミドルウェアの不要な処理を削除。パフォーマンスを約1/3まで短縮することに成功
 
 ##### 5. その他の業務
 
