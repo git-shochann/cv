@@ -1,15 +1,16 @@
 # 職務経歴書
 
-## アカウント
+## 基本情報
 
-[![Github](https://img.shields.io/badge/git_shochann-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white)](https://github.com/git-shochann)
-[![Zenn](https://img.shields.io/badge/shochann00-3EA8FF.svg?&style=flat-square&logo=Zenn&logoColor=white)](https://zenn.dev/shochann00)
+- 坪谷翔（Tsuboya Sho）
+- 1997/08/25
+- 東京都在住
 
 ## スキル
 
 ### プログラミング言語等
 
-- Go | Ruby | JavaScript | SQL
+- Go | Ruby | JavaScript
 
 ### フレームワーク / ランタイム
 
@@ -47,7 +48,7 @@
 
 ---
 
-### 株式会社 栄光 (2024/4〜)
+### 教育系企業（大手学習塾を展開するグループ会社）: 2024/4〜
 
 #### 役職
 
@@ -64,7 +65,7 @@
 - **CI/CD:** GitHub Actions
 - **監視・ログ:** Datadog
 - **リアルタイム通信:** Socket.IO (Node.js)
-- **負荷テスト:** Taurus
+- **負荷テスト:** k6
 - **その他:** Swagger (APIドキュメント), SendGrid (メール配信), JIRA（タスク管理）, Backlog + Confluence (ドキュメント管理), アジャイル開発
 
 #### 詳細な業務内容
@@ -74,9 +75,9 @@
 - クリーンアーキテクチャを採用し、API単位で開発
 - Swaggerを用いてAPIドキュメントを整備
 - DDLベースの管理からGorm V2によるマイグレーションファイルでの管理へ移行
-- Goの標準パッケージ（testing）を活用し、ユニットテストを実装。CI上で自動テストが実行されるようGitHub Actionsに組み込み、開発品質を維持
-- APIのログ設計、AWSのログ出力設計、Datadogの連携の整備（Echo, Gorm, 標準ライブラリやログファイルある部分等も含め、非機能要件を考慮しZapに統一し、AWSのログ出力周りの変更を実施、Datadogとの連携を実施）
-
+- Goの標準パッケージ（testing）を活用し、ユニットテストを実装 CI上で自動テストが実行されるようGitHub Actionsに組み込み、開発品質を維持
+- APIのログ設計、Datadogの連携の整備
+  - Echo, Gormも含めてログ出力をslogに統一し、Datadog APM, RUMとも接続を実施し、トレース出来るように設定
 
 ##### 2. 開発環境の整備
 
@@ -122,7 +123,7 @@
 
 ---
 
-### 株式会社 VoiceUtopia（2021/01〜）
+### 株式会社 VoiceUtopia: 2021/01〜
 
 ユーザーと声優の1:1通話サービスのWebアプリケーションの立ち上げから設計、開発、運用
 新しい技術も主体的に習得し、限られた時間の中でユーザーの求める機能を優先的に開発
@@ -139,12 +140,30 @@ DB設計、API設計、Swaggerを用いたスキーマファーストの開発�
   - Swaggerを用いたAPI設計
   - ユーザー機能の実装（新規登録、メール認証、ログイン、マイページ情報編集、予約機能、必要なAPI作成）
   - 声優機能の実装（新規応募、登録、ログイン、アカウント発行、メール配信、マイページ情報編集、予約作成、DB移行）
-  - 各環境ごとのAPIサーバーの構築とリリース段階の確認
+  - 各環境ごとのAPIサーバーの構築およびリリース段階での確認
   - 管理者機能の実装（Slack通知、Web上での声優採用・不採用処理、メール配信）
   - AWS EC2を使用したAPIサーバー、AWS RDSを使用したDBのインフラ設計・構築
 
+---
+
+### Apple Japan合同会社（2018/09〜2021/11）
+
+大学在学中に入社し、主に修理サポート業務・法人営業・新人教育を担当しました。
+Appleでは、短時間で高い品質の成果が求められる環境で、効率性と正確さの両立を意識した業務改善を日々行っていました。
+
+また、新人教育を任され、現場で即戦力となれるよう実務ベースでのOJTを担当して、マネージャーとの1on1を通じ、日々のオペレーションを振り返り、カスタマー評価でも常に平均以上の水準を維持しました。
+
+Appleの根幹にある「Diversity & Inclusion」の文化の中で、国籍・バックグラウンドの異なる同僚と協力し、個を尊重したチームワークを学びました。
+この経験は、エンジニアリングの現場でも活かせる対人スキル・チーム志向の原点となっています。
+
+## 各種アカウント
+
+[![Github](https://img.shields.io/badge/git_shochann-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white)](https://github.com/git-shochann) ※ 現在の実務では、別アカウントのGitHub Organization上で開発しております。
+[![Zenn](https://img.shields.io/badge/shochann00-3EA8FF.svg?&style=flat-square&logo=Zenn&logoColor=white)](https://zenn.dev/shochann00)
+
 ## 自己PR
 
-バックエンド開発、クラウド環境構築、DevOps業務が好きです
-GoとAWSを活用したAPI開発やインフラ構築を行い、開発環境の整備や自動化、負荷テスト・監視システムの導入を通じて、安定したシステム運用を実現しています
-特に、効率的な運用とスケーラビリティの向上を意識したシステム設計を意識して開発・構築を実施しています
+バックエンド開発、クラウド環境構築、DevOps業務に強みがあります。  
+GoとAWSを活用したAPI開発やインフラ構築、開発環境の整備、自動化、負荷テスト・監視システムの導入などを通じて、安定したシステム運用を実現してきました。
+チームでの協力を重視し、円滑なコミュニケーションを大切にしています。  
+特に、効率的な運用とスケーラビリティを意識した設計・構築を心がけ、将来を見据えた拡張性の高いシステムの設計・構築を強みとし、チーム全体の生産性向上に貢献していきます。
